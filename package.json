@@ -1,29 +1,28 @@
 {
-  "name": "frontend",
+  "name": "saigon-culinary-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "aframe": "^1.4.2",
+    "aframe-react": "^4.4.0",
+    "axios": "^1.12.2",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.2",
+    "tailwindcss": "^3.3.3",
+    "web-vitals": "^5.1.0",
+    "zustand": "^4.5.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "postinstall": "npx tailwindcss init"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
