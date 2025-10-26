@@ -13,3 +13,4 @@ coverage
 
 /backend/.env
 /.vite
+backend/google-cloud-key.json
